@@ -1,7 +1,6 @@
 import React, { useContext } from 'react';
 
 import CustomButton from '../custom-button/custom-button.component';
-import { addItem } from '../../redux/cart/cart.actions';
 import { CartContext } from '../../provider/cart/cart.provider';
 
 import './collection-item.styles.scss';
